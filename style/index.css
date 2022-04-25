@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.score {
+  font-size: 3rem;
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background-color: yellow;
+}
+
+.centrar__caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja p {
+  font-size: 60px;
+}
+
+.circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+
+}
+.circulo p{
+  font-size: 60px;
+}
+.circulo:hover{
+  background: red;
+
+}
+
+
